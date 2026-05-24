@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="@drawable/rounded_dialog_bg"> <TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="Sugerir nuevo lugar"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:textColor="@color/chinanko_purple_dark"
+    android:layout_marginBottom="16dp" />
+
+    <EditText
+        android:id="@+id/etSugerenciaNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre del lugar"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categoría:"
+        android:textSize="14sp"
+        android:layout_marginBottom="4dp"/>
+    <Spinner
+        android:id="@+id/spSugerenciaCategoria"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#F3EDFA"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/etSugerenciaDescripcion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Descripción breve"
+        android:inputType="textMultiLine"
+        android:lines="3"
+        android:layout_marginBottom="12dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="16dp">
+
+        <Button
+            android:id="@+id/btnElegirFotosSugerencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="📷 Elegir fotos"
+            android:backgroundTint="#8E8E8E" />
+
+        <TextView
+            android:id="@+id/tvContadorFotosSugerencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Ninguna seleccionada"
+            android:layout_marginStart="12dp"
+            android:textSize="12sp"
+            android:textColor="#8E8E8E" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnCancelarSugerencia"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cancelar"
+            android:layout_marginEnd="8dp" />
+
+        <Button
+            android:id="@+id/btnEnviarSugerencia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:backgroundTint="@color/chinanko_purple_dark" />
+    </LinearLayout>
+</LinearLayout>

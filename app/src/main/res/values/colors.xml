@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="chinanko_purple">#6750A4</color>
+    <color name="white_transparent">#CCFFFFFF</color>
+    <color name="gray_text">#49454F</color>
+    <color name="purple_transparent">#33E8DEF8</color>
+
+    <color name="white_highly_transparent">#33FFFFFF</color>
+
+    <color name="chinanko_purple_light">#F3EDFA</color> <!-- El fondo de las barras -->
+    <color name="chinanko_purple_dark">#65558F</color>  <!-- El botón de '+' y el ícono activo -->
+    <color name="chinanko_text_hint">#49454F</color>   <!-- El texto gris -->
+</resources>

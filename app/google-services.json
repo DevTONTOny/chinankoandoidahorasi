@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "761855541758",
+    "project_id": "chinanko-76098",
+    "storage_bucket": "chinanko-76098.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761855541758:android:cb61b4f4a414d45fb340af",
+        "android_client_info": {
+          "package_name": "com.example.proyecto_chinanko"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA3pa1y3mLkJrkJAhqpWmG21wCnHcd8R1o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
